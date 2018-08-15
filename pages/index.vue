@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <ol>
+      <button Qclick="$router.push('/users')">Go to Users</button>
       <button @click="$router.push('/products')">Go to Products</button>
     </ol>
   </section>
